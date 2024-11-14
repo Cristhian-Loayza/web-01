@@ -1,0 +1,34 @@
+form{
+    margin: 20px;
+    width: 320px;
+    padding: 0.5em;
+    border: 0.5px solid rgb(99, 99, 99);
+    border-radius: 0.5em;
+    background: rgb(249, 244, 244);
+}
+div{
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+input, textarea{
+    font: 1em verdana;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    border: 1px solid black;
+}
+input :focus,
+textarea :focus{
+    border-color: red;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button{
+    padding-left: 90px;
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(135, 135, 135);
+}
+.grid{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.grid video, iframe{
+    width: 100%;
+    margin: auto;
+    border: 3px solid rgb(14, 93, 190);
+    transition: all 0.5s ease;
+}
+.grid video:hover, iframe:hover{
+    transform: scale(0.8);
+    border-bottom: 30%;
+}
+audio{
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+}

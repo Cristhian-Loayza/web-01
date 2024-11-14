@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 94, 153, 0.55);
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div{
+    height: 1300px;
+}
+
+div.separador1{
+    height: 30px;
+    clear: both;
+}
+
+div.separador2{
+    width: 2%;
+    height: 1px;
+    float: left;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+img.centro{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div img{
+    width: 48%;
+    float: center;
+    align-content: center;
+}
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #2f60b5;
+}
